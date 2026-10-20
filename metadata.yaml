@@ -1,0 +1,9 @@
+﻿name: astrbot_plugin_input_cap
+desc: 闄愬埗姣忔 LLM 璇锋眰鐨勮緭鍏?Token锛岃秴闄愭椂鎴柇鏈€鏃т笂涓嬫枃銆?
+short_desc: 姣忔璇锋眰杈撳叆 Token 涓婇檺涓庡巻鍙叉埅鏂?
+version: 0.1.0
+author: luoyuan
+repo: https://github.com/Ash-6-astra/astrbot_plugin_input_cap
+display_name: 杈撳叆 Token 鎴柇
+astrbot_version: ">=4.24.2"
+
