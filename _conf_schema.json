@@ -1,0 +1,30 @@
+{
+  "enabled": {
+    "description": "启用插件",
+    "type": "bool",
+    "default": true
+  },
+  "max_input_tokens": {
+    "description": "每次请求输入 Token 上限",
+    "type": "int",
+    "hint": "这是单次 LLM 请求的输入上限，不是每日用量上限。超过后会从最旧上下文开始截断。0 表示不限制。",
+    "default": 16000
+  },
+  "min_keep_messages": {
+    "description": "至少保留的最新消息数",
+    "type": "int",
+    "hint": "即使超限也尽量保留最近几条消息；当前用户输入始终优先保留。",
+    "default": 2
+  },
+  "image_token_cost": {
+    "description": "图片估算 Token",
+    "type": "int",
+    "hint": "无法直接取得模型视觉计费时，每个图片内容块按此值估算。",
+    "default": 1200
+  },
+  "log_truncation": {
+    "description": "记录截断日志",
+    "type": "bool",
+    "default": true
+  }
+}
